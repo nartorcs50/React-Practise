@@ -1,0 +1,72 @@
+// import "./App.css";
+// import Todo from "./components/Todo.jsx";
+// import Title from "./components/Title.jsx";
+// import Modal from "./components/Modal.jsx";
+// import Counter from "./components/Counter.jsx";
+// import React, { useState, useEffect } from "react";
+
+// function App() {
+//   // const [showModal, setModal] = useState(false);
+
+//   // function onTodoList() {
+//   //   setModal(true);
+//   //   console.log("onTodoList");
+//   // }
+
+//   // function cancelButton() {
+//   //   setModal(false);
+//   // }
+
+//   // function confirmButton() {
+//   //   setModal(false);
+//   // }
+
+//   // // 1. in 'useEffect' the first argument is your callback () => {}
+//   // // 2. second is your dependancy list []
+
+//   // // if you pass in the second arugument as a single array, its only going to run on 'mount'.
+//   // useEffect(() => {
+//   //   console.log('mount')
+//   // }, [])
+
+//   // // passing an array with some dependancy inside is going to pass on mount, and every time the dependancy 
+//   // // changes inside of the array.
+//   // useEffect(() => {
+//   //   console.log(`on mount AND on ${showModal} change`)
+//   // }, [showModal])
+
+//   // // if you don't pass in the second argument, its just going to run every render.
+//   // useEffect(() => {
+//   //   console.log('EVERY render')
+//   // })
+
+//   return (
+//     <div>
+//       {/* <Title />
+//       <div>
+//         <input
+//           type="text"
+//           onChange={(event) => {
+//             console.log(event.target.value);
+//           }}
+//         />
+//         <button onClick={() => setModal(true)}>Add todo</button>
+//       </div>
+//       <div className="todo__wrapper">
+//         <Todo onTodoLIst={onTodoList} title="Finish Frontend Simplified" />
+//         <Todo onTodoLIst={onTodoList} title="Finish Interview Section" />
+//         <Todo onTodoLIst={onTodoList} title="Land a 100k$ job" />
+//       </div>
+//       {showModal && (
+//         <Modal
+//           question="Are you sure"
+//           cancelButton={cancelButton}
+//           confirmButton={confirmButton}
+//         />
+//       )}
+//       <Counter /> */}
+//     </div>
+//   );
+// }
+
+// export default App;
